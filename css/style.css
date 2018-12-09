@@ -1,0 +1,145 @@
+/*Global Code*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.main_container {
+    min-height: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 250px;
+    color:#191919;
+  
+
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+/*header code*/
+header {
+    background-color: #fff;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.main_nav {
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+.main_nav li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+.main_nav li:hover{
+    background-color: grey;
+}
+
+.main_nav a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #191919;
+}
+.main_nav a:hover{
+    color:#fff;
+}
+
+/*main body contact */
+.mainContent {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    clear: both;
+}
+
+.subContent{
+
+justify-content: center;
+    
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    color:#191919;
+}
+
+/*footer section*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #273041;
+    width: 100%;
+
+}
+
+.footer_main {
+    background-color: #323C48;
+    text-align: center;
+}
+
+.footer_main li {
+    display: inline-block;
+    padding: 10px 100px;
+}
+
+footer {
+    padding: 50px;
+    color:aliceblue;
+}
+
+.footer_main a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:aliceblue;
+    letter-spacing: 2px;
+    
+}
+
+.footer_main li:hover {
+    background: grey; 
+    
+}
+
+/*media queries*/
+@media (max-width: 700px){
+    .footer_main li {
+        padding-left: 40px; 
+        padding-right: 40px;
+    }
+}
