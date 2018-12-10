@@ -101,7 +101,7 @@ width:80%;
 
 .subContent p {
 
-
+line-height: 2rem;
 
 }
 
@@ -119,6 +119,8 @@ footer {
     bottom: 0;
     background-color: #273041;
     width: 100%;
+    padding: 50px;
+    color:aliceblue;
 
 }
 
@@ -132,10 +134,7 @@ footer {
     padding: 10px 100px;
 }
 
-footer {
-    padding: 50px;
-    color:aliceblue;
-}
+
 
 .footer_main a {
     font-size: 1rem;
@@ -153,7 +152,8 @@ footer {
 
 .footer_container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1em;
 }
 
 /*media queries*/
