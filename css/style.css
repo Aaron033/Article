@@ -76,18 +76,33 @@ hr.style-two {
     color:#fff;
 }
 
-/*main body contact */
+/*main body contact 
+left: 50%;
+    transform: translateX(-50%);
+*/
 .mainContent {
     background-color: #fff;
     position: relative;
-    text-align: center;
-    clear: both;
+
+width:80%;
+  left: 58%;
+    transform: translateX(-50%);
+
+    
 }
 
 .subContent{
 
-justify-content: center;
-    
+
+width:80%;
+
+
+}
+
+.subContent p {
+
+
+
 }
 
 
@@ -134,6 +149,11 @@ footer {
 .footer_main li:hover {
     background: grey; 
     
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 /*media queries*/
